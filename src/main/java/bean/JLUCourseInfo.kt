@@ -49,7 +49,7 @@ data class JLUCourseInfo(
                 val PKDD: String,
                 val PKSJ: String?,
                 val PKSJDD: String?,
-                val RKJS: String,
+                val RKJS: String?,
                 val RZLBDM: Any,
                 val SCSKRQ: String,
                 val SKFSDM: String,

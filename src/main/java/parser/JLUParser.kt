@@ -64,7 +64,7 @@ class JLUParser(source:String):Parser(source) {
             name = row.KCMC,
             day = Common.getDayInt(dayOfWeek),
             room = location,
-            teacher = row.RKJS,
+            teacher = row.RKJS?:"",
             startNode = startSection.toInt(),
             endNode = if (endSection.isEmpty()) startSection.toInt() else endSection.toInt(),
             startWeek = startWeek.toInt(),
